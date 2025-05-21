@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-image: 'bg.jpg'; /* hoặc dùng link ảnh online */
+  background-image: url('bg.jpg'); /* hoặc dùng link ảnh online */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
