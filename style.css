@@ -3,12 +3,15 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-color: #f5f9fc;
-  color: #333;
+  background-image: url('bg.jpg'); /* hoặc dùng link ảnh online */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff; /* chuyển chữ thành trắng để nổi bật trên nền ảnh */
 }
 
 header {
-  background-color: #0c7f8a;
+  background-color: rgba(0, 0, 0, 0.6); /* nền mờ để dễ đọc */
   color: white;
   padding: 2rem;
   text-align: center;
@@ -16,6 +19,9 @@ header {
 
 main {
   padding: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.5); /* nền mờ cho nội dung */
+  margin: 1rem;
+  border-radius: 10px;
 }
 
 section {
@@ -23,11 +29,11 @@ section {
 }
 
 h2 {
-  color: #0c7f8a;
+  color: #ffdd57;
 }
 
 button {
-  background-color: #0c7f8a;
+  background-color: #ff9900;
   color: white;
   border: none;
   padding: 0.8rem 1.2rem;
@@ -37,11 +43,11 @@ button {
 }
 
 button:hover {
-  background-color: #06646f;
+  background-color: #e68900;
 }
 
 footer {
-  background-color: #eee;
+  background-color: rgba(0, 0, 0, 0.4);
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
